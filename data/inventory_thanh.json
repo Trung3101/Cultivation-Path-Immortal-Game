@@ -1,0 +1,131 @@
+{
+  "items": [
+    {
+      "id": "item001",
+      "name": "Hồi Khí Đan",
+      "type": "Đan dược",
+      "rank": "Nhân",
+      "tier": "trung",
+      "effect": "Hồi phục 50 linh lực",
+      "description": "Đan dược phổ thông giúp khôi phục linh lực.",
+      "quantity": 10
+    },
+    {
+      "id": "item002",
+      "name": "Thanh Huyền Kiếm",
+      "type": "Pháp bảo",
+      "rank": "Hoàng",
+      "tier": "thượng",
+      "power": 180,
+      "description": "Kiếm được rèn bằng Thanh Kim tinh, tương thích với hệ phong.",
+      "durability": 100
+    },
+    {
+      "id": "item003",
+      "name": "Huyền Thiết Khải",
+      "type": "Trang bị",
+      "rank": "Huyền",
+      "tier": "cực",
+      "defense": 240,
+      "description": "Giáp chế tạo từ Huyền Thiết, tăng khả năng phòng ngự đáng kể.",
+      "durability": 200
+    },
+    {
+      "id": "item004",
+      "name": "Linh thạch trung cấp",
+      "type": "Linh thạch",
+      "rank": "Phàm",
+      "tier": "trung",
+      "effect": "Dùng để trao đổi hoặc tu luyện",
+      "quantity": 99
+    },
+    {
+      "id": "item005",
+      "name": "Tinh Hoa Hỏa Liên",
+      "type": "Nguyên liệu",
+      "rank": "Địa",
+      "tier": "hạ",
+      "description": "Nguyên liệu quý dùng để luyện đan hệ hỏa.",
+      "rarity": "hiếm"
+    },
+    {
+      "id": "item006",
+      "name": "Thất Sát Phù",
+      "type": "Phù chú",
+      "rank": "Vương",
+      "tier": "trung",
+      "effect": "Tăng sát thương đánh thường 20% trong 10 giây",
+      "description": "Phù chú cổ xưa dùng trong sát trận.",
+      "quantity": 3
+    },
+    {
+      "id": "item007",
+      "name": "Vô Cực Giới Chỉ",
+      "type": "Trang bị",
+      "rank": "Vô",
+      "tier": "cực",
+      "description": "Giới chỉ cổ tồn chứa không gian vô tận.",
+      "durability": 999
+    },
+    {
+      "id": "item008",
+      "name": "Tinh Linh Tọa Kỵ",
+      "type": "Tọa kỵ",
+      "rank": "Thiên",
+      "tier": "thượng",
+      "description": "Sinh vật linh thú dùng để cưỡi, tốc độ bay cực nhanh."
+    },
+    {
+      "id": "item009",
+      "name": "Tẩy Tủy Đan",
+      "type": "Đan dược",
+      "rank": "Tiên",
+      "tier": "trung",
+      "effect": "Tăng EXP 100 điểm",
+      "description": "Đan dược quý hiếm giúp cải tạo căn cốt.",
+      "quantity": 1
+    },
+    {
+      "id": "item010",
+      "name": "Linh Quả Hỏa Diễm",
+      "type": "Đan dược",
+      "rank": "Huyền",
+      "tier": "thượng",
+      "effect": "Hồi HP 100 điểm",
+      "description": "Quả linh lực hệ hỏa giúp hồi phục nhanh.",
+      "quantity": 5
+    },
+    {
+      "id": "item011",
+      "name": "Chân Giải Tâm Kinh",
+      "type": "Công pháp",
+      "rank": "Thiên Đạo",
+      "tier": "cực",
+      "description": "Tâm pháp cao cấp khai mở đại trí đại tuệ.",
+      "effect": "Tăng tốc độ tu luyện"
+    },
+    {
+    "id": "kiem_long_than",
+    "name": "Kiếm Long Thần",
+    "type": "Pháp bảo",
+    "rank": "Thiên",
+    "tier": "Cực phẩm",
+    "description": "Từng là vật của Kiếm Tôn Diệt Thế, ẩn chứa oán niệm hàng vạn năm.",
+    "soulbound": true,
+    "soul_tier": 3,
+    "effect": "Gia tăng công kích hệ long",
+    "power": 9000,
+    "durability": 500
+    },
+    {
+      "id": "item012",
+      "name": "Huyết Ấn Trận",
+      "type": "Đạo cụ đặc biệt",
+      "rank": "Chí Tôn",
+      "tier": "thượng",
+      "description": "Trận pháp dùng trong phong ấn linh thú",
+      "effect": "Kích hoạt để phong ấn kẻ địch yếu hơn 1 cảnh giới"
+    }
+  ],
+  "max_slots": 25
+}

@@ -5,6 +5,7 @@ from ui.vision import VisionWindow
 from ui.explore import ExploreWindow
 from ui.battle import BattleWindow
 from ui.character_info import CharacterInfo
+from ui.inventory_ui import InventoryUI
 
 class MainGameMenu(QWidget):
     def __init__(self, user_data):
@@ -29,6 +30,9 @@ class MainGameMenu(QWidget):
         self.explore_button.clicked.connect(self.open_explore)
         self.fight_button.clicked.connect(self.open_battle)
         self.info_button.clicked.connect(self.open_info)
+        self.inventory_button = QPushButton("🎒 Túi đồ")
+        self.inventory_button.clicked.connect(self.open_inventory)
+        layout.addWidget(self.inventory_button)
 
         # Thêm nút vào layout
         layout.addWidget(self.train_button)
@@ -65,3 +69,7 @@ class MainGameMenu(QWidget):
         self.info_window = CharacterInfo(self.user_data)
         self.info_window.show()
         self.close()
+
+    def open_inventory(self):
+        self.inventory_window = InventoryUI(self.user_data)
+        self.inventory_window.show()

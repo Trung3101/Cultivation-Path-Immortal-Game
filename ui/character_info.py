@@ -1,5 +1,6 @@
 # ui/character_info.py
 from PyQt5.QtWidgets import QWidget, QLabel, QVBoxLayout, QPushButton, QTextEdit
+from data.character_manager import log_character_deletion
 
 class CharacterInfo(QWidget):
     def __init__(self, user_data):
@@ -49,3 +50,5 @@ class CharacterInfo(QWidget):
         self.menu = MainGameMenu(user_data=self.user_data)
         self.menu.show()
         self.close()
+
+    
